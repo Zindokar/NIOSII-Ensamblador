@@ -22,3 +22,10 @@ Primero vamos a programar la configuración del procesador para que tenga habili
 En la botonera hay 3 botones, podemos configurar una máscara para que solo interrumpa la combinación de botones que queramos, y así prevenir que un botón que no queramos interrumpa, aunque podemos hacer que interrumpa y luego descartarlo pero es un mal gasto por nuestra parte, sobretodo si podemos configurar, por ejemplo en nuestro caso sólo interrumpa KEY1 y KEY3.
 Una diferencia principal es que el led no se mueve a partir de un bucle infinito, sino cada vez que el timer del procesador (configurado en el main.s) interrumpe, movemos el led a donde corresponde.
 En esta práctica hemos ahorrado archivos sueltos, y hemos puesto el manejador en un sólo fichero y no hemos usado la stack ya que no usamos tantos registros, lo recomendable aunque se usen pocos registros es utilizar la stack, no es otro mecanismo que guardar los valores de los registros en memoria dentro del manejador antes de hacer nada, y cuando termine el manejador de hacer lo que hemos programado recuperar esos valores de memoria a los registros.
+
+## Piano
+Piano en esamblador usando el teclado del ordenador.
+
+### Práctica 4-3
+Pequeño piano que reproduce las notas musicales según una tecla pulsada por el teclado usando el puerto JTAG.
+El archivo todasLasNotas.s contiene en memoria cada nota musical convertida las ondas a formato digital durante un segundo (o dos) de nota.
