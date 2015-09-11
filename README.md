@@ -8,6 +8,10 @@ Técnica de encuesta o polling, consiste en preguntar al controlador del perifé
 En esta práctica desplazamos los leds de la placa Altera DE2 hacia un lado en función del botón que apretemos de la botonera, puede ser izquierda o derecha.
 Para ello empezamos desplazando hacia la izquierda los leds (un led encendido, el resto apagado) hasta que apretemos un botón y evaluaremos si debe moverse a la derecha o no.
 
+### Práctica 4-1
+Jugamos con el controlador de audio de la placa, grabamos un sonido y luego lo podemos repetir más lento, más rápido o de la forma original.
+Lo categorizo como Polling ya que hay que estar comprobando la FIFO de lectura y escritura del driver de audio y lo hacemos mediante Polling.
+
 ## Interruption
 Técnica frecuentemente usada que consiste en habilitar interrupciones del procesador, y dependiendo del procesador tratar dichas excepciones.
 En nuestro caso vamos a programar un código manejador de excepciones.
