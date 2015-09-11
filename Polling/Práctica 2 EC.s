@@ -1,4 +1,4 @@
-.global _start							/*  */
+.global _start				/*  */
 	/* Declaracion de variables */
 _start: movia r3, 0x10000000		/* Mapa de bits para el controlador e/s paralelo para los leds rojos */
 	movia r1, 0x10000050		/* Direccion base de los botones */
