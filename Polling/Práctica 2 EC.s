@@ -5,11 +5,11 @@ _start: movia r3, 0x10000000			/* Mapa de bits para el controlador e/s paralelo 
 		movi r4, 0b100000000000000000	/* Contador tope del desplazador hacia la izquierda */
 		movi r2, 0b000000000000000001	/* Contador tope del desplazador hacia la derecha */
 		mov r5, r2						/* Usamos r5 como estado para los leds rojos */
-		movi r6, 0b0010					/* Máscara de bits para comprobar si se apreto KEY1 */
-		movi r8, 0b0100					/* Máscara de bits para comprobar si se apreto KEY2 */
-		movi r9, 0b1000					/* Máscara de bits para comprobar si se apreto KEY3 */
+		movi r6, 0b0010					/* MÃ¡scara de bits para comprobar si se apreto KEY1 */
+		movi r8, 0b0100					/* MÃ¡scara de bits para comprobar si se apreto KEY2 */
+		movi r9, 0b1000					/* MÃ¡scara de bits para comprobar si se apreto KEY3 */
 		movi r13, 0b0111111				/* Mapa de bits para un 0 en el 7-segmentos */
-		movia r12, 30000				/* Tope máximo del contador del temporizador (fast) */
+		movia r12, 30000				/* Tope mÃ¡ximo del contador del temporizador (fast) */
 		movi r14, 2500					/* */
 										/* */
 		/* Inicio del programa */
