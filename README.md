@@ -4,6 +4,9 @@ Programas realizados por mi en ensamblador, en la asignatura de Estructura de Co
 ### Práctica 1
 Simple programa que calcula los números de la suceción de Fibonacci, los comentarios están en inglés porque quedan más cool y es una práctica sencilla.
 
+### Práctica 3
+La práctica 3 era prácticamente teórica, analizar un código usando la FPGA en modo NIOSII/e y NIOSII/f y responder a una serie de preguntas sobre la memoria cache del procesador.
+
 ## Polling
 Técnica de encuesta o polling, consiste en preguntar al controlador del periférico constantemente y en función de la respuesta hacer algo determinado.
 
