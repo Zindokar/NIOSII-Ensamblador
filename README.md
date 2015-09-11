@@ -12,6 +12,9 @@ Para ello empezamos desplazando hacia la izquierda los leds (un led encendido, e
 Jugamos con el controlador de audio de la placa, grabamos un sonido y luego lo podemos repetir más lento, más rápido o de la forma original.
 Lo categorizo como Polling ya que hay que estar comprobando la FIFO de lectura y escritura del driver de audio y lo hacemos mediante Polling.
 
+### Práctica 4-2
+Reproducimos lo que grabamos constantemente con un efecto de eco. Esta práctica fue realizada con la idea de un compañero.
+
 ## Interruption
 Técnica frecuentemente usada que consiste en habilitar interrupciones del procesador, y dependiendo del procesador tratar dichas excepciones.
 En nuestro caso vamos a programar un código manejador de excepciones.
