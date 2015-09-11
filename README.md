@@ -1,6 +1,9 @@
 # AlteraDE2-NIOSII-Ensamblador
 Programas realizados por mi en ensamblador, en la asignatura de Estructura de Computadores en la Universidad de Las Palmas de Gran Canaria.
 
+### Práctica 1
+Simple programa que calcula los números de la suceción de Fibonacci, los comentarios están en inglés porque quedan más cool y es una práctica sencilla.
+
 ## Polling
 Técnica de encuesta o polling, consiste en preguntar al controlador del periférico constantemente y en función de la respuesta hacer algo determinado.
 
