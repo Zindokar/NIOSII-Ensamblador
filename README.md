@@ -35,6 +35,9 @@ En esta práctica hemos ahorrado archivos sueltos, y hemos puesto el manejador e
 ## Piano
 Piano en esamblador usando el teclado del ordenador.
 
+## FrecuenciaNotas
+Programa añadido tanto la compilación como el código fuente dentro de la práctica del Piano. Programa hecho en java para tirar por casa para generar las notas.
+
 ### Práctica 4-3
 Pequeño piano que reproduce las notas musicales según una tecla pulsada por el teclado usando el puerto JTAG.
 El archivo todasLasNotas.s contiene en memoria cada nota musical convertida las ondas a formato digital durante un segundo (o dos) de nota.
