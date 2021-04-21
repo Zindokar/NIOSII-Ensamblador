@@ -41,3 +41,5 @@ Programa añadido tanto la compilación como el código fuente dentro de la prá
 ### Práctica 4-3
 Pequeño piano que reproduce las notas musicales según una tecla pulsada por el teclado usando el puerto JTAG.
 El archivo todasLasNotas.s contiene en memoria cada nota musical convertida las ondas a formato digital durante un segundo (o dos) de nota.
+
+### Lo guardo como recuerdo de la Universidad (L)
